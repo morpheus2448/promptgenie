@@ -15,18 +15,21 @@ PromptGenie is a Command Line Interface (CLI) assistant designed to provide quic
 1. Clone the repository:
 
     `git clone https://github.com/morpheus2448/promptgenie.git`
+
     `cd promptgenie`
 
 
 2. Create a “pg” folder into your home directory and copy the files:
 
     `mkdir ~/pg`
+
     `cp * ~/pg`
 
 
 3. Run the install.sh script to add an alias to your .bashrc file:
 
     `cd ~/pg`
+    
     `./install.sh`
 
 
