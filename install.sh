@@ -20,4 +20,4 @@ fi
 #
 echo "# If you don't see any errors, the script is installed!"
 echo "# Now type 'source ~/.bashrc' or restart your terminal for changes to take effect."
-echo "# Finally, type 'pg' followed by your query, like: '\$pg command to show free space in GB?'"
+echo "# Finally, type 'pg' followed by your query, like: 'pg command to show free space in GB?'"
