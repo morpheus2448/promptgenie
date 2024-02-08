@@ -18,9 +18,10 @@ PromptGenie is a Command Line Interface (CLI) assistant designed to provide quic
     `cd promptgenie`
 
 
-2. Copy the “pg” folder into your home directory:
+2. Create a “pg” folder into your home directory and copy the files:
 
-    `cp -r pg ~`
+    `mkdir ~/pg`
+    `cp * ~/pg`
 
 
 3. Run the install.sh script to add an alias to your .bashrc file:
@@ -32,7 +33,6 @@ PromptGenie is a Command Line Interface (CLI) assistant designed to provide quic
 4. Restart your terminal or source your .bashrc file:
 
     `source ~/.bashrc`
-    
 
 
 ## Configuration
