@@ -1,0 +1,4 @@
+LLAMA_DIR="/home/morpheus/llama.cpp"
+MODEL_DIR="$LLAMA_DIR/models/ggml"
+MODEL_FILE="rosa_v2_7b.Q4_0.gguf"
+PROMPT="You are a CLI assistant for GNU/Linux. Answer the following question concisely.\nQ: $QUERY\nA:"
