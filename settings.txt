@@ -1,4 +1,8 @@
 LLAMA_DIR="/home/morpheus/llama.cpp"
 MODEL_DIR="$LLAMA_DIR/models/ggml"
-MODEL_FILE="rosa_v2_7b.Q4_0.gguf"
-PROMPT="You are a CLI assistant for GNU/Linux. Answer the following question concisely.\nQ: $QUERY\nA:"
+MODEL_FILE="dolphin-2_6-phi-2.Q4_0.gguf"
+MIN_P=0.9								# Default = 0.9
+TEMP=0.01								# Default = 0.01
+REPEAT_PEN=1.3							# Default = 1.3
+NUM_THREADS=4							# Default = 4 (best for small models)
+PROMPT="<|im_start|>system\nYou are a CLI assistant for GNU/Linux. Answer the following question in a concise manner.\n<|im_start|>user\n$QUERY\n<|im_start|>assistant\n"
